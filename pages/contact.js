@@ -2,7 +2,7 @@ import {Container, Grid, Paper, TextField, InputBase, Button} from '@material-ui
 import Head from 'next/head';
 import React from 'react';
 import useStyles from '../styles/Contact';
-import Image1 from '../public/Illustrator.png';
+// import Image1 from '../public/Illustrator.png';
 import Image from 'next/image';
 
 const Contact = () => {
@@ -20,7 +20,8 @@ const Contact = () => {
         <Container className={classes.root}>
           <Grid container spacing={1} alignItems="center" justifyContent="space-around">
             <Grid item lg={4}>
-              <Image src={Image1} />
+            {/* This Image is not available check again */}
+              {/* <Image src={Image1} /> */}
             </Grid>
             <Grid item lg={5}>
               <Paper className={classes.paper}>
